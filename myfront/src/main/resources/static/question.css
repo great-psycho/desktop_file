@@ -96,7 +96,7 @@ li.icon {
     height: 60px;
 }
 
-.c1-title-title {
+.c1-title-name {
     margin: auto;
     font-size: 22px;
     color: #304bee;
@@ -121,7 +121,7 @@ li.icon {
     border-radius: 10px 10px 10px 10px;
 }
 
-.c1-comment {
+.c1-content {
     top: 5px;
     margin-left: 40px;
     display: flex;
@@ -130,7 +130,7 @@ li.icon {
     height: 60px;
 }
 
-.c1-comment-title {
+.c1-content-name {
     margin: auto;
     text-align: center;
     font-size: 22px;
@@ -142,7 +142,7 @@ li.icon {
     border-radius: 3px 3px 3px 3px;
 }
 
-.c1-comment-content {
+.c1-content-content {
     margin-left: 5px;
     margin-top: 9px;
     font-size: 20px;
@@ -165,7 +165,7 @@ li.icon {
     height: 60px;
 }
 
-.c1-file-title {
+.c1-file-name {
     margin: auto;
     font-size: 22px;
     color: #304bee;
