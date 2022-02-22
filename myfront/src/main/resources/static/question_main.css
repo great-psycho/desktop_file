@@ -78,6 +78,7 @@ li.icon {
 }
 
 .c1 {
+    font-size: 20px;
     box-shadow: 0 0 5px antiquewhite;
     background-color: rgba(255, 255, 255, 0.5);
     width: 980px;
@@ -87,145 +88,42 @@ li.icon {
     border-radius: 5px 5px 5px 5px;
 }
 
-.c1-title {
-    top: 10px;
-    margin-left: 40px;
+/*문의 목록 스타일*/
+.queries {
+    margin: 5px;
+    width: 950px;
     display: flex;
-    position: relative;
-    width: 900px;
-    height: 60px;
-}
-
-.c1-title-name {
-    margin: auto;
-    font-size: 22px;
-    color: #304bee;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
-    width: 120px;
-    height: 30px;
-    background-color: rgba(175, 209, 250, 0.78);
-    border: 3px solid rgba(175, 209, 250, 0.78);
-    border-radius: 3px 3px 3px 3px;
+    padding: 6px;
 }
 
-.c1-title-content {
-    margin-left: 5px;
-    margin-top: 9px;
-    font-size: 20px;
-    width: 850px;
-    height: 30px;
-    box-shadow: 0 0 5px antiquewhite;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 7px solid #D5EDFFC6;
-    display: inline-block;
-    border-radius: 10px 10px 10px 10px;
+/*label 테두리 스타일*/
+.label {
+    background-color: rgba(213, 237, 255, 0.78);
+    border: 4px solid rgba(191, 223, 252, 0.71);
 }
 
-.c1-content {
-    top: 5px;
-    margin-left: 40px;
-    display: flex;
-    position: relative;
-    width: 900px;
-    height: 60px;
+/*label과 문의내용 간격 맞추기*/
+.queries-items {
+    margin-left: 9px;
 }
 
-.c1-content-name {
-    margin: auto;
-    text-align: center;
-    font-size: 22px;
-    color: #304bee;
-    width: 120px;
-    height: 30px;
-    background-color: rgba(175, 209, 250, 0.78);
-    border: 3px solid rgba(175, 209, 250, 0.78);
-    border-radius: 3px 3px 3px 3px;
+/* label 가로간격 설정 */
+.query-number {width: 40px;}
+.query-type {width: 90px;}
+.query-name {
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
-
-.c1-content-content {
-    margin-left: 5px;
-    margin-top: 9px;
-    font-size: 20px;
-    width: 850px;
-    height: 500px;
-    box-shadow: 0 0 5px antiquewhite;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 7px solid #D5EDFFC6;
-    display: inline-block;
-    border-radius: 10px 10px 10px 10px;
-    resize: none;
-}
-
-.c1-file {
-    top: 473px;
-    margin-left: 40px;
-    display: flex;
-    position: relative;
-    width: 900px;
-    height: 60px;
-}
-
-.c1-file-name {
-    margin: auto;
-    font-size: 22px;
-    color: #304bee;
-    text-align: center;
-    width: 120px;
-    height: 30px;
-    background-color: rgba(175, 209, 250, 0.78);
-    border: 3px solid rgba(175, 209, 250, 0.78);
-    border-radius: 3px 3px 3px 3px;
-}
-
-.c1-file-content {
-    margin-left: 5px;
-    margin-top: 9px;
-    font-size: 20px;
-    width: 850px;
-    height: 30px;
-    box-shadow: 0 0 5px antiquewhite;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 7px solid #D5EDFFC6;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.c1 > h4 {
-    position: relative;
-    top: 455px;
-    margin-left: 350px;
-}
-
-.button-box {
-    display: flex;
-    position: relative;
-    top: 460px;
-    margin-left: 340px;
-}
-
-.check-button {
-    color: rgba(4, 16, 185, 0.75);
-    cursor: pointer;
-    font-size: 21px;
-    margin-right: 20px;
-    width: 150px;
-    height: 40px;
-    border: 3px solid rgba(175, 209, 250, 0.78);
-    background-color: #D5EDFFC6;
-    border-radius: 10px;
-}
-.check-button:hover {
-    border: 3px solid rgba(175, 209, 250, 0.78);
-    background-color: rgba(175, 209, 250, 0.78);
-}
-
-.public-private-box {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-}
-.public-button {
-    display: block;
-}
-.private-button {
-    display: block;
+.enquirer {width: 80px;}
+.query-date {width: 100px;}
+.query-status {width: 75px;}
+.public-private {width: 75px;}
+.line {
+    height: 23px;
+    border-right: 1.5px solid rgba(176, 217, 250, 0.78);
 }
